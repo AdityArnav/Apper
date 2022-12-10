@@ -1,0 +1,40 @@
+.company-main-container{
+    /* background-color: #f6f4fe; */
+    margin-top:70px;
+}
+.company-container{
+width:80%;
+/* border:1px solid black; */
+margin:auto;
+}
+.company-heading>h2{
+    width:80%;
+color: #32236F;
+font: 40px Poppins , sans-serif;
+text-align: center;
+margin:auto;
+}
+.company-heading>h2>span{
+    color: #6A49F2;
+}
+
+.company-para{
+    color:#3E3F66;
+    font-size: 14px Poppins, sans-serif;
+} 
+
+.company-para1{
+    line-height: 0;
+    margin-top:-1.3rem;
+}
+
+.divflex{
+    /* display: flex;
+    border:1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.divflex>img{
+    /* display: flex; */
+    display: block;
+}

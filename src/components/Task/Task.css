@@ -1,0 +1,114 @@
+
+.task-main-container{
+    width: 100vw;
+}
+
+.task-container{
+width:80%;
+margin:auto;
+display: flex;
+border: 1px solid black;
+}
+
+.left-task-container{
+    height:600px;
+    width:555px;
+    border:1px solid black;
+}
+.left-task-container> .left{
+    display: flex;
+    position: relative;
+}
+.left-task-container> .left :nth-child(1){
+    z-index: 1px;
+}
+.left-task-container> .left :nth-child(2){
+position: absolute;
+z-index: -1px;
+left:13rem;
+top:10rem;
+}
+
+.left{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin:auto;
+    position: relative;
+}
+.left img{
+    position: absolute;
+    left:3rem;
+}
+
+.main-right-task-container{
+    margin-top:30px;
+}
+
+.right-task-container{
+    border: 1px solid blue;
+    margin-left: 40px;
+    display: grid;
+    /* height:600px; */
+    width: 555px;
+}
+.right-task-container> h2{
+    text-align: start;
+    font-weight: bold;
+    font: 40px Poppins, sans-serif;
+    /* position: relative; */
+}
+.right-task-container> h2>span{
+    color: #32236F;
+    /* position: absolute; */
+    /* left:10rem; */
+    
+}
+.task{
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border:1px solid black;
+    gap:40px;
+}
+
+.task-para-style{
+    width:540px ;
+    text-align: center;
+}
+.task>div{
+    height: 89px;
+    width:249px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task> div>div>.task-list>span{
+    font: 40px Poppins, sans-serif;
+    color: #32236F;
+}
+.task> div>div{
+    font: 16px Poppins, sans-serif;
+}
+.task >div >div>.task-list{
+    /* border:1px solid black; */
+    border-radius: 14px;
+    list-style: none;
+}
+
+.task-btn{
+    height:47px;
+    width:217px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: #6A49F2;
+    color:#ffffff;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 16px Poppins, sans-serif;
+}
+

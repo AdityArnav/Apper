@@ -1,0 +1,45 @@
+.container {
+    color: #3E3F66;
+    font:14px;
+    font-family:Poppins,sans-serif;
+    display: flex;
+    align-items: center;
+    background-color:rgb(246,244,254);
+    height:5.2rem;
+}
+.navbar{
+    padding:10px;
+    box-sizing: border-box;
+    width: 80%;
+    height:40px;
+    /* border:1px solid black; */
+    margin:auto;
+    display: flex;
+    gap:50px;
+    justify-content: space-around;
+    align-items: center;
+    /* overflow-y: hidden; */
+}
+.navbar >img{
+    height: 30px;
+    width:150px;
+}
+.navbar .nav-items{
+    display: flex;
+    font-size: 16px;
+    gap:50px;
+}
+.icon_btn{
+    /* height: 2.8rem; */
+    width:fit-content;
+    height: 40px;
+    width:9.18rem;
+    /* border:1px solid black; */
+    background-color: #6A49F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+
+}
