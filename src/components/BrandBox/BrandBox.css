@@ -29,12 +29,13 @@ margin:auto;
 }
 
 .divflex{
-    /* display: flex;
-    border:1px solid black; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* border:1px solid black;  */
+     display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
 }
 .divflex>img{
     /* display: flex; */
-    display: block;
+    /* display: block; */
+    
 }

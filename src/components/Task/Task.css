@@ -1,19 +1,20 @@
 
 .task-main-container{
+    margin-top:50px;
     width: 100vw;
 }
 
 .task-container{
-width:80%;
+width:70%;
 margin:auto;
 display: flex;
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 
 .left-task-container{
     height:600px;
     width:555px;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .left-task-container> .left{
     display: flex;
@@ -47,7 +48,7 @@ top:10rem;
 }
 
 .right-task-container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-left: 40px;
     display: grid;
     /* height:600px; */
@@ -69,7 +70,7 @@ top:10rem;
     margin-top:30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border:1px solid black;
+    /* border:1px solid black; */
     gap:40px;
 }
 
