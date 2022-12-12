@@ -27,7 +27,7 @@
 .right-container{
     position: relative;
     z-index: -1px;
-    border:1px solid black;
+    /* border:1px solid black; */
     /* display: flex; */
     /* align-items: center;
     justify-content: center; */
@@ -41,14 +41,17 @@
     background-color: #6A49F2;
     position: absolute;
     top:22%;
-    left:15.5%;
-    z-index: 1px;
-    left:auto
+    left:50%;
+    transform: translate(-50%);
+    
+    z-index: -1px;
 }
 
 .mobile-circle-img{
-    /* position: absolute; */
-    z-index: -1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1px;
 }
 .left-container>.box-div>.box{
     display: flex;
@@ -65,7 +68,7 @@
 .left-container>.box-div>p{
     height:47px;
     width:130px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .left-container>.box-div>p>img{
     /* border:1px solid black; */
@@ -90,7 +93,7 @@
     position: absolute;
     z-index: 1;
     left:-1rem;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 .logo-text{
@@ -116,7 +119,8 @@ height: 580px;
 
     .right-container{
         margin: auto;
-        border:1px solid black;
+        /* border:1px solid black; */
+       
         width:100vw;
     }
 }

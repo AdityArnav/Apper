@@ -135,6 +135,23 @@ text-align: left;
     margin-top:-1.2rem;
     width: 380px;
 }
+.design-circle{
+    width:400px;
+    height:400px;
+    justify-content: start;
+}
+.design-circle > .design-circle-img{
+    /* height:495px;
+    width:352px; */
+    display: flex;
+    position: absolute;
+    top:0rem;
+    left:-5rem;
+} 
+.design-circle-img> .design-left-img{
+    position: absolute;
+    right:-9rem;
+}
 
 
 }
