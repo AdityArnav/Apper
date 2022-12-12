@@ -10,7 +10,8 @@ margin:auto;
 .company-heading>h2{
     width:80%;
 color: #32236F;
-font: 40px Poppins , sans-serif;
+font-size: 40px;
+/* font-family: "Poppins, sans-serif"; */
 text-align: center;
 margin:auto;
 }
@@ -20,11 +21,14 @@ margin:auto;
 
 .company-para{
     color:#3E3F66;
-    font-size: 14px Poppins, sans-serif;
+    font-size: 14px;
+/* font-family: "Poppins, sans-serif"; */
 } 
 
 .company-para1{
     line-height: 0;
+    font-size: 14px;
+/* font-family: "Poppins, sans-serif"; */
     margin-top:-1.3rem;
 }
 
@@ -37,5 +41,9 @@ margin:auto;
 .divflex>img{
     /* display: flex; */
     /* display: block; */
+    
+}
+
+@media only screen and (min-width: 990px){
     
 }

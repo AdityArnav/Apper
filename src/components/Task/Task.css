@@ -9,6 +9,8 @@ width:70%;
 margin:auto;
 display: flex;
 /* border: 1px solid black; */
+/* box-sizing: border-box; */
+/* display: inline-block; */
 }
 
 .left-task-container{
@@ -41,6 +43,7 @@ top:10rem;
 .left img{
     position: absolute;
     left:3rem;
+    /* border:1px solid red; */
 }
 
 .main-right-task-container{
@@ -52,16 +55,20 @@ top:10rem;
     margin-left: 40px;
     display: grid;
     /* height:600px; */
-    width: 555px;
+    /* width: 555px; */
 }
 .right-task-container> h2{
     text-align: start;
+    /* word-wrap: normal; */
     font-weight: bold;
-    font: 40px Poppins, sans-serif;
+    font-size: 40px;
+    /* border:1px solid black; */
+    /* width:33rem; */
     /* position: relative; */
 }
-.right-task-container> h2>span{
-    color: #32236F;
+.right-task-container> h2 >span {
+    color: #6A49F2;
+    /* background-color: #32236F; */
     /* position: absolute; */
     /* left:10rem; */
     
@@ -91,7 +98,7 @@ top:10rem;
     color: #32236F;
 }
 .task> div>div{
-    font: 16px Poppins, sans-serif;
+    font-size: 16px ;
 }
 .task >div >div>.task-list{
     /* border:1px solid black; */
@@ -113,3 +120,61 @@ top:10rem;
     font: 16px Poppins, sans-serif;
 }
 
+@media only screen and (max-width: 990px){
+    .task-container{
+        /* display: grid; */
+        flex-direction: column-reverse;
+        /* margin:auto; */
+        
+    }
+    .right-task-container{
+        /* border: 1px solid blue; */
+        margin:auto;
+        display: grid;
+    }
+    .right-task-container>p{
+        text-align: start;
+        justify-self: left;
+        /* margin:auto auto; */
+        display: inline-block;
+    }
+
+    .task-btn{
+        /* text-align: center; */
+        margin:auto;
+        margin-top:30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .task{
+        border:1px solid black;
+        
+    }
+    
+    .task>div{
+        margin:auto;
+        width:200px;
+        justify-content: left;
+        /* margin-left:0; */
+
+    }
+
+    .task> div>div>.task-list>span{
+        font-size: 18px;
+        
+    }
+    .task> div>div{
+        font-size: 14px ;
+    }
+    .task >div >div>.task-list{
+        /* border:1px solid black; */
+        border-radius: 14px;
+        list-style: none;
+    }
+    .left img{
+        left:0;
+    }
+}

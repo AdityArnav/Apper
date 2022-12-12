@@ -20,11 +20,11 @@ const MobOpt = () => {
                 <div className='box-div'>
                     <p className='box'>
                         <img src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/appstore_blue.png" alt="images"/>
-                        <img src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/appstore_white.png" alt="images"/>
+                        {/* <img src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/appstore_white.png" alt="images"/> */}
                     </p>
                     <p className='box'>
                         <img src='http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/googleplay_blue.png' alt='images'/>
-                        <img src='https://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/googleplay_white.png' alt='images'/>
+                        {/* <img src='https://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/googleplay_white.png' alt='images'/> */}
                     </p>
                 </div>
                 <div className="profile-logo-container">
@@ -41,7 +41,7 @@ const MobOpt = () => {
                 <div className='circle-box'>
 
                 </div>
-                    <img src='http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/mobile_frame_svg.svg'
+                    <img className="mobile-circle-img"src='http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/mobile_frame_svg.svg'
                         alt='images'
                     />
                 </div>

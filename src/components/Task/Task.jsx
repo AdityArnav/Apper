@@ -15,7 +15,7 @@ const Task = () => {
                     <div className='main-right-task-container'>
 
                         <div className='right-task-container'>
-                            <h2>Some awesome words <br/> <span>about app.</span></h2>
+                            <h2>Some awesome words <span>about app.</span></h2>
                             <p className='task-para-style'>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and. Lorem ipsum dolor sit amet.</p>
                         </div>
 

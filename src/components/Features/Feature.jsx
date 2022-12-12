@@ -9,12 +9,11 @@ const Feature = () => {
                     <div className='feature-heading'>
                         <h2><span className='feature-span'>Features </span>that makes app different!</h2>
                         <p className='feature-para'>Lorem Ipsum is simply dummy text of the printing and typese tting</p>
-                        <br />
                         <p className='feature-para feature-para1'>indus orem Ipsum has beenthe standard dummy.</p>
                     </div>
 
                     <div className='feature-mobile-container'>
-                        <div  className='first-feature-box'>
+                        <div className='first-feature-box'>
                             <div>
                                 <img src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/secure_data.png" alt="images" />
                                 <h4>Secure data</h4>

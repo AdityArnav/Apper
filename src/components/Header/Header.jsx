@@ -15,11 +15,11 @@ const Header = () => {
               <p>Pricing</p>
               <p>Blog</p>
               <p>Contact</p>
-            </div>
-            <div>
             <p className="icon_btn">GET STARTED</p>
-
             </div>
+            <div class="toggle-wrap">
+                <span class="toggle-bar"></span>
+              </div>
 
           </div>
         </nav>

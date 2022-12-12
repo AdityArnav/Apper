@@ -1,29 +1,96 @@
 
 .design-opt-main-container{
     width:100vw;
+    /* border:1px solid red; */
+    margin-top:50px;
 
 }
 .design-opt-container{
+    /* border:1px solid green; */
     width:70%;
+    display: flex;
     margin:auto;
 }
 
-.design-opt-left-container{
-    width:585px;
+.design-opt-left-top-container{
+    width:540px;
+    margin-bottom:10px;
+    /* border:1px solid blue; */
 }
-.design-opt-left-container> .design-opt-heading{
-font: 40px Poppins , sans-serif;
+.design-opt-left-top-container> .design-opt-heading{
+font-size: 40px;
+/* font-family: "Poppins, sans-serif"; */
 text-align: left;
 }
-.design-opt-left-container> .design-opt-heading >span{
+.design-opt-left-top-container> .design-opt-heading >span{
     color: #6A49F2;
     display: flex;
     justify-content: start;
 }
 
 .design-opt-para{
+
     margin-top:-20px;
     width:430px;
-    font: 16px Poppins, sans-serif;
+    font-size: 16px;
+    /* font-family: "Poppins, sans-serif"; */
     text-align: left;
 }
+
+.design-block-list{
+    list-style: none;
+    margin-bottom: -10px;
+}
+.design-block{
+    position: relative;
+    /* border: 1px solid red; */
+    text-align: left;
+    width:480px;
+}
+
+.design-block-list::before{
+    content: "";
+    position: absolute;
+    left:0;
+    /* top:5px; */
+    background-image: url("http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/right_icon.png");
+    width:22px;
+    height:22px;
+}
+.design-block-list> h4{
+    color: #32236F;
+    font-size: 20px;
+/* font-family: "Poppins, sans-serif"; */
+}
+
+.design-block-list> p{
+    color:#3E3F66;
+    font-size: 16px;
+/* font-family: "Poppins, sans-serif"; */
+    margin-top:-1.2rem;
+    width: 380px;
+}
+
+.design-opt-right-container{
+    /* border: 1px solid black; */
+    height:580px;
+    width:580px;
+}
+
+.design-circle{
+    position: relative;
+    height:540px;
+    width:540px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border:1px solid black;
+    margin-top:40px;
+}
+
+.design-circle > .design-circle-img{
+    /* height:495px;
+    width:352px; */
+    display: flex;
+    position: absolute;
+    top:2rem;
+} 
