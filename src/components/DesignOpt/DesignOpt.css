@@ -99,4 +99,42 @@ text-align: left;
     .design-opt-container{
         display: grid;
     }
+    
+.design-block-list{
+    list-style: none;
+    margin-bottom: -10px;
+}
+.design-block{
+    position: relative;
+    /* border: 1px solid red; */
+    text-align: left;
+    width:480px;
+}
+
+.design-block-list::before{
+    content: "";
+    position: absolute;
+    /* left:50%; */
+    /* transform: translate(-50%); */
+    /* top:5px; */
+    background-image: url("http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/right_icon.png");
+    width:22px;
+    height:22px;
+}
+.design-block-list> h4{
+    color: #32236F;
+    text-align: center;
+    font-size: 20px;
+/* font-family: "Poppins, sans-serif"; */
+}
+
+.design-block-list> p{
+    color:#3E3F66;
+    font-size: 16px;
+/* font-family: "Poppins, sans-serif"; */
+    margin-top:-1.2rem;
+    width: 380px;
+}
+
+
 }

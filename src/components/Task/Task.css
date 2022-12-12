@@ -82,12 +82,13 @@ top:10rem;
 }
 
 .task-para-style{
-    width:540px ;
+    /* width:540px ; */
+    /* border:1px solid red; */
     text-align: center;
 }
 .task>div{
     height: 89px;
-    width:249px;
+    /* width:249px; */
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -136,7 +137,7 @@ top:10rem;
         text-align: start;
         justify-self: left;
         /* margin:auto auto; */
-        display: inline-block;
+        /* display: inline-block; */
     }
 
     .task-btn{
@@ -150,14 +151,17 @@ top:10rem;
 
     }
     .task{
-        border:1px solid black;
+        /* border:1px solid black; */
+        /* justify-content: start; */
+        /* gap:10px; */
         
     }
     
     .task>div{
         margin:auto;
-        width:200px;
+        width:90%;
         justify-content: left;
+        margin-left: -30px;
         /* margin-left:0; */
 
     }
@@ -174,7 +178,15 @@ top:10rem;
         border-radius: 14px;
         list-style: none;
     }
-    .left img{
-        left:0;
+
+    .task>div>div>img{
+        height: 57px;
+        height:57px;
+        /* border:1px solid black; */
+    }
+    .left-task-container{
+        position: relative;
+        left:50%;
+        transform: translate(-50%);
     }
 }

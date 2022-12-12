@@ -31,19 +31,16 @@
 }
 
 .feature-mobile-container{
-    /* height: 506px; */
-    /* position: relative; */
+    
     background-color: #FFFFFF;
     border-radius: 50px;
     display:flex;
     gap:40px;
-    /* justify-content: start; */
-    /* text-align: start; */
+
 }
 
 .feature-mobile{
-    /* position: absolute; */
-    /* bottom:10rem; */
+
     margin-top:-12.5rem;
 }
 
